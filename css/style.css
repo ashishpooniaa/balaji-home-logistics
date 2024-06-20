@@ -95,7 +95,7 @@
     color: var(--primary);
 }
 
-@media (max-width: 991.98px) {
+/* @media (max-width: 991.98px) {
     .navbar-light .navbar-nav .nav-link  {
         margin-right: 0;
         padding: 10px 0;
@@ -104,7 +104,17 @@
     .navbar-light .navbar-nav {
         border-top: 1px solid #EEEEEE;
     }
+} */
+
+@media (max-width: 767px) {
+    .navbar .fa-headphones {
+        margin-right: 8px;
+    }
+    .navbar h4 {
+        font-size: 1.2rem;
+    }
 }
+
 
 .navbar-light .navbar-brand,
 .navbar-light a.btn {
@@ -474,3 +484,4 @@
 .footer .copyright a {
     color: var(--light);
 }
+
